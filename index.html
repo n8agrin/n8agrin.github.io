@@ -22,11 +22,38 @@ title: "n8agrin.com: Home"
         <li><a href="http://splunk.com">splunk></a></li>
         <li><a href="http://inaturalist.org">iNaturalist.org</a></li>
     </ul>
-    <h1>Posts</h1>
+    <h1>Recent blog posts:</h1>
     <ul>
     {% for post in site.posts %}
         <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
     {% endfor %}
     </ul>
+    <h1 class="tweets">Recent tweets:</h1>
+    <ul class="tweets"></ul>
 </div>
 <br class="clear"/>
+
+<script type="text/javascript" charset="utf-8">
+    var MAX_REMOTE_ITEMS = 5;
+
+    function iterFactory(callable) {
+      var count = 0;
+      return function(idx, elem) {
+          if (count >= MAX_REMOTE_ITEMS) return false;
+          callable.apply(this, [idx, elem]);
+          count++;
+      };
+    }
+
+    function twitterCallback(resp) {
+      $('.tweets').show();
+      var twitter_statuses = $('ul.tweets');
+      $.each(resp, iterFactory(function() {
+        var a = $('<a/>').text(this['text']).attr('href', 'http://twitter.com/n8agrin/status/' + this['id']);
+        twitter_statuses.append(a);
+        a.wrap('<li/>');
+      }));
+    }
+</script>
+
+<script type="text/javascript" charset="utf-8" src="http://twitter.com/statuses/user_timeline/894321.json?callback=twitterCallback"></script>
