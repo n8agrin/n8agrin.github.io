@@ -1,5 +1,5 @@
 ---
-layout: curvey
+layout: curvey-post
 title: Your Data Should Be Free
 ---
 

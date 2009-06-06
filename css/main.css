@@ -12,31 +12,40 @@ Flame-Orange: B64926
 Burnt-Orange: 8E2800
 */
 
-html{background-color: #140D09; margin: 0; padding: 0;}
-body{font-family:Arial,"MS Trebuchet",sans-serif; margin: 0; padding: 0;}
-li{font-size:1.4em;font-weight:bold;list-style-type:none;}
+body{background-color: #140D09; font-family:Arial,"MS Trebuchet",sans-serif;}
+p, li{font-size: 1.2em;}
+/*li{font-size:1.4em;font-weight:bold;list-style-type:none;}*/
 a{text-decoration:none;color:#44AFDD;}
 a:hover{text-decoration:underline;}
 a:hover:visited{text-decoration:underline;}
 a:visited{color:#85765F;}
 a > img {border: none;}
 
-div.container {
-    width: 800px;
-    margin: 0 auto 4em auto;
-    padding: 1em 3em 3em;
+.container {
+    width: 830px;
+    margin-bottom: 200px;
+    padding-bottom: 1em;
     background-color: white;
     border-top: 1em solid #44AFDD;
     -moz-border-radius-bottomright: 14px;
     -moz-border-radius-bottomleft: 14px;
 }
 
-#navigation {width: 100%;}
+#navigation {width: 100%; font-size: 1.6em;}
 #navigation ol {text-align: right;}
 #navigation ol li {display: inline; padding-left: 0.2em;}
-.floatLeft {float: left;}
-.floatRight {float: right;}
-.clear {clear: both;}
+
+/*
+Posts
+*/
+#post div.content{
+  text-align: justify;
+}
+/*#post li{
+  font-size: 1em;
+  font-weight: normal;
+  list-style-type: disc;
+}*/
 
 /*
 Dynamic service driven elements
