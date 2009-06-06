@@ -1,6 +1,38 @@
-body{font-family:Arial,"MS Trebuchet",sans-serif;margin:2em 0 0 3em;}
+/*
+Dark brown: 262318
+Mid brown: 2E1E15
+Light brown: 473D2A
+Dark green: 5D7B2C
+Light green: 93B02A
+Aqua-green: 468966
+Blue: 44AFDD
+Golden-Yellow: FFF0A5
+Orange-Yellow: FFB03B
+Flame-Orange: B64926
+Burnt-Orange: 8E2800
+*/
+
+html{background-color: #262318; margin: 0; padding: 0;}
+body{font-family:Arial,"MS Trebuchet",sans-serif; margin: 0; padding: 0;}
 li{font-size:1.4em;font-weight:bold;list-style-type:none;}
-a{text-decoration:none;color:#39C;}
-a:hover{text-decoration:underline;color:#00C}
-a:visited{text-decoration:line-through;color:#639;}
-a:visited:hover{text-decoration:none;}
+a{text-decoration:none;color:#44AFDD;}
+a:hover{text-decoration:underline;}
+a:hover:visited{text-decoration:underline;}
+a:visited{color:#85765F;}
+a > img {border: none;}
+
+div.container {
+    width: 800px;
+    margin: 0 auto 4em auto;
+    padding: 1em 3em 3em;
+    background-color: white;
+    border-top: 1em solid #44AFDD;
+    -moz-border-radius-bottomright: 14px;
+    -moz-border-radius-bottomleft: 14px;
+}
+
+#navigation {float: right; clear: both;}
+#navigation ol li {display: inline; padding-left: 0.2em;}
+.floatLeft {float: left;}
+.floatRight {float: right;}
+.clear {clear: both;}
