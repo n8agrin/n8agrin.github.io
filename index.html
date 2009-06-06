@@ -1,0 +1,187 @@
+---
+layout: default
+title: Nate Agrin
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>n8agrin.com</title>
+  <style type="text/css" media="screen">
+    html{background-color: #262318; margin: 0; padding: 0;}
+    body{font-family:Arial,"MS Trebuchet",sans-serif; margin: 0; padding: 0;}
+    li{font-size:1.4em;font-weight:bold;list-style-type:none;}
+    a{text-decoration:none;color:#44AFDD;}
+    a:hover{text-decoration:underline;}
+    a:hover:visited{text-decoration:underline;}
+    a:visited{color:#85765F;}
+    
+    a > img {border: none;}
+    
+    div.container {
+        width: 800px;
+        margin: 0 auto;
+        padding: 1em 3em 3em;
+        background-color: white;
+        border-top: 1em solid #44AFDD;
+        -moz-border-radius-bottomright: 14px;
+        -moz-border-radius-bottomleft: 14px;
+    }
+    
+    #navigation {float: right; clear: both;}
+    #navigation ol li {display: inline;}
+    .floatLeft {float: left;}
+    .floatRight {float: right;}
+    .clear {clear: both;}
+  </style>
+</head>
+<body id="index" onload="">
+  <div class="container">
+    <div id="navigation">
+        <ol>
+            <li><a href="http://www.n8agrin.com/blog">blog</a></li>
+            <li><a href="http://www.n8agrin.com/resume">resume</a></li>
+            <li><a href="http://www.n8agrin.com/projects">projects</a></li>
+        </ol>
+    </div>
+    <div id="about">
+      <h1>I'm Nate Agrin, and I</h1>
+      <ul>
+        <li>take <a href="http://flickr.com/photos/n8agrin">photos</a>.</li>
+        <li>post on <a href="http://twitter.com/n8agrin">Twitter</a>.</li>
+        <li>travel the <a href="http://www.flickr.com/photos/n8agrin/collections/72157604313833382/">world</a>.</li>
+        <li>code in <a href="https://developer.mozilla.org/en/About_JavaScript">javascript</a>, <a href="http://www.ruby-lang.org/en/">ruby</a>, <a href="http://python.org/">python</a> and <a href="http://php.net/">php</a>.</li>
+        <li>hike, bike, snowboard, surf and run around outside.</li>
+      </ul>
+      <h1>Professionally I</h1>
+      <ul>
+        <li>am a UI Engineer at <a href="http://splunk.com">splunk></a>.</li>
+        <!--<li>have a <a href="#">resume</a> online!</li> -->
+        <li>can be found on <a href="http://www.linkedin.com/in/n8agrin">LinkedIn</a>.</li>
+      </ul>
+      <h1>I'm currently working on:</h1>
+      <ul>
+        <li><a href="http://splunk.com">splunk></a></li>
+        <li><a href="http://inaturalist.org">iNaturalist.org</a></li>
+     </ul>
+    </div>
+    <br class="clear"/>
+  </div>
+  
+<!--
+   
+
+
+    <div id="home">
+      <h1>Blog Posts</h1>
+      <ul class="posts">
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <h1>Open Source Projects</h1>
+      <ul class="posts"></ul>
+
+    </div> 
+-->
+  
+  
+  <!--
+    Dude don't look here this is secret!  Did you sign my NDA?
+    ______________X
+  <li>l-ilatorpitch</li>
+  <li>money diff</li>
+  <li>portfolio builder</li>
+  -->
+  
+  <!--
+           <canvas width="400px" height="300px" id="demo" />
+      <script type="text/javascript" charset="utf-8" src="http://github.com/jeresig/processing-js/raw/master/processing.min.js"></script>
+
+    
+  </script>
+   <script type="application/processing" charset="utf-8">
+
+  // Global variables
+  int radius = 50.0;
+  int X, Y;
+  int nX, nY;
+  int delay = 16;
+
+  // Setup the Processing Canvas
+  void setup(){
+    size( 200, 200 );
+    strokeWeight( 10 );
+    frameRate( 15 );
+    X = width / 2;
+    Y = width / 2;
+    nX = X;
+    nY = Y;  
+  }
+
+  // Main draw loop
+  void draw(){
+
+    radius = radius + sin( frameCount / 4 );
+
+    // Track circle to new destination
+    X+=(nX-X)/delay;
+    Y+=(nY-Y)/delay;
+
+    // Fill canvas grey
+    background( 100 );
+
+    // Set fill-color to blue
+    fill( 0, 121, 184 );
+
+    // Set stroke-color white
+    stroke(255); 
+
+    // Draw circle
+    ellipse( X, Y, radius, radius );                  
+  }
+
+
+  // Set circle's next destination
+  void mouseMoved(){
+    nX = mouseX;
+    nY = mouseY;  
+  }
+   </script>
+  <script type="text/javascript" charset="utf-8">
+    // Processing($('canvas#demo').get(0), $('script[type="application/processing"]').text());
+  </script> -->
+  
+    <!-- <script type="text/javascript" charset="utf-8">
+        var MAX_REMOTE_ITEMS = 5;
+    
+        function iterFactory(callable) {
+          var count = 0;
+          return function(idx, elem) {
+              if (count >= MAX_REMOTE_ITEMS) return false;
+              callable.apply(this, [idx, elem]);
+              count++;
+          };
+        }
+    
+        function twitterCallback(resp) {
+          try {
+              var twitter_statuses = $('#twitter_statuses');
+              $.each(resp, iterFactory(function() {
+                var li = $('<li/>').text(this['text']);
+                twitter_statuses.append(li);
+              }));
+          }catch(e) {}
+        }
+    </script> -->
+  
+    <!-- <div id="twitter_statuses"></div> -->
+  
+    <!-- <script type="text/javascript" charset="utf-8" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://twitter.com/statuses/user_timeline/894321.json?callback=twitterCallback"></script> -->
+  
+  <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+  <script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-248105-3"); pageTracker._trackPageview();} catch(err) {}</script>
+</body>

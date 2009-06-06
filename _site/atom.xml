@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Nate Agrin</title>
+ <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
+ <link href="http://tom.preston-werner.com/"/>
+ <updated>2009-06-02T00:48:07-07:00</updated>
+ <id>http://tom.preston-werner.com/</id>
+ <author>
+   <name>Tom Preston-Werner</name>
+   <email>tom@mojombo.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Your Data Should Be Free</title>
+   <link href="http://tom.preston-werner.com/2009/05/29/foo-bar.html"/>
+   <updated>2009-05-29T00:00:00-07:00</updated>
+   <id>http://tom.preston-werner.com/2009/05/29/foo-bar</id>
+   <content type="html">&lt;h1&gt;foo bar&lt;/h1&gt;
+&lt;p&gt;goo ber&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
