@@ -9,24 +9,24 @@ title: "n8agrin.com: Home"
         <li>post on <a href="http://twitter.com/n8agrin">Twitter</a>.</li>
         <li>travel the <a href="http://www.flickr.com/photos/n8agrin/collections/72157604313833382/">world</a>.</li>
         <li>code in <a href="https://developer.mozilla.org/en/About_JavaScript">javascript</a>, <a href="http://www.ruby-lang.org/en/">ruby</a>, <a href="http://python.org/">python</a> and <a href="http://php.net/">php</a>.</li>
+        <li>contribute to <a href="http://www.github.com/n8agrin">open source projects</a>.</li>
         <li>hike, bike, snowboard, surf and run around outside.</li>
     </ul>
     <h1>Professionally I</h1>
     <ul>
-        <li>am a UI Engineer at <a href="http://splunk.com">splunk></a>.</li>
+        <li>am a User Interface Engineer at <a href="http://splunk.com">Splunk&gt;</a>.</li>
         <!--<li>have a <a href="#">resume</a> online!</li> -->
-        <li>can be found on <a href="http://www.linkedin.com/in/n8agrin">LinkedIn</a>.</li>
+        <!-- <li>can be found on <a href="http://www.linkedin.com/in/n8agrin">LinkedIn</a>.</li> -->
     </ul>
     <h1>I'm currently working on:</h1>
     <ul>
-        <li><a href="http://splunk.com">splunk></a></li>
+        <li><a href="http://splunk.com">Splunk&gt;</a></li>
         <li><a href="http://inaturalist.org">iNaturalist.org</a></li>
     </ul>
     <h1>Recent blog posts:</h1>
     <ul>
-    {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
+    {% for post in site.posts limit:5 %}
+        <li><a href="{{ post.url }}">{{ post.date | date_to_cool_string }} - {{ post.title }}</a></li>
     {% endfor %}
     </ul>
 </div>
-<br class="clear"/>

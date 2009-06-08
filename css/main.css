@@ -74,8 +74,8 @@ Flame-Orange: B64926
 Burnt-Orange: 8E2800
 */
 
-body{background-color: #140D09; font-family:Arial,"MS Trebuchet",sans-serif;}
-h1 {font-size: 2.5em;}
+body{background-color: #1B1000; font-family:Arial,"MS Trebuchet",sans-serif; color: #313131;}
+h1 {font-size: 2.5em; color: #313131; font-weight: bolder;}
 p, li{font-size: 1.2em;}
 li{list-style-type:none;}
 a{text-decoration:none;color:#44AFDD;}
@@ -85,16 +85,23 @@ a:visited{color:#85765F;}
 a > img {border: none;}
 
 .container {
-    width: 820px;
-    margin: 0 auto 200px auto;
-    padding-bottom: 4em;
-    background-color: white;
-    border-top: 1em solid #44AFDD;
-    -moz-border-radius-bottomright: 14px;
-    -moz-border-radius-bottomleft: 14px;
+  width: 620px;
+  margin: 0 auto 8em;/* 200px auto;*/
 }
 
-#navigation {width: 100%; font-size: 1.2em;}
+.content {
+  background-color: white;
+  padding: 2em;
+/*  margin-bottom: 8em;*/
+/*  margin: 2em;*/
+  /*    -moz-border-radius-bottomright: 14px;
+  -moz-border-radius-bottomleft: 14px;*/
+/*  -moz-border-radius: 14px;*/
+/*  -webkit-border-bottom-left-radius:14px; /* bottom left corner */*/
+/*  -webkit-border-bottom-right-radius: 14px; /* bottom right corner */*/
+}
+
+#navigation {width: 100%; font-size: 1.2em; margin-top: 1.5em;}
 #navigation ol {text-align: right;}
 #navigation ol li {display: inline; padding-left: 0.2em;}
 

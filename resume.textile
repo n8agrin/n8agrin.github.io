@@ -1,0 +1,26 @@
+---
+layout: curvey
+title: "n8agrin.com: Resume"
+---
+
+h1. Nathan Agrin
+
+h2. Experience
+
+h3. Splunk Inc.
+
+h3. Bolt | Peters
+
+h3. "Center for History and New Media":http://chnm.gmu.edu
+
+h2. Education
+
+University of California at Berkeley; Berkeley, California
+Master of Information Management Systems, May 2008.
+
+Clark University; Worcester, Massachusetts
+Bachelor of the Arts, Molecular Biology with Highest Honors, May 2002.
+
+h2. Honors
+
+Phi Beta Kappa National Honor Society Member
