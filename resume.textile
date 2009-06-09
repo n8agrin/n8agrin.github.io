@@ -2,16 +2,33 @@
 layout: curvey
 title: "n8agrin.com: Resume"
 ---
-
 h1. Nathan Agrin
+
+h2. Profile
+
+Really great guy
+
+h2. Skills
+
+Hacker!
 
 h2. Experience
 
 h3. Splunk Inc.
 
+User Interface Engineer
+
+h3. "iNaturalist.org":http://inaturalist.org
+
+Cofounder, Primary Developer
+
 h3. Bolt | Peters
 
+User Interface Engineer and Information Architect
+
 h3. "Center for History and New Media":http://chnm.gmu.edu
+
+Primary Developer
 
 h2. Education
 

@@ -72,38 +72,52 @@ Golden-Yellow: FFF0A5
 Orange-Yellow: FFB03B
 Flame-Orange: B64926
 Burnt-Orange: 8E2800
+
+Nice brown: 1B1000
+
 */
 
-body{background-color: #1B1000; font-family:Arial,"MS Trebuchet",sans-serif; color: #313131;}
+/**
+Final color choices:
+http://www.colourlovers.com/palette/848113/sea_foam
+
+body color:         2B271F  // Brown
+content top border: DDE3AF  // Yellow-green
+nav-link:           85765F  // Light brown
+nav-link-visited:   85765F  // Light brown
+link:               00478F  // Significant blue
+link-visited:       8F6F40  // Orangish brown
+font color          313131  // Dark greyish
+**/
+
+body{background-color: #2B271F; font-family:Arial,"MS Trebuchet",sans-serif; color: #313131;}
 h1 {font-size: 2.5em; color: #313131; font-weight: bolder;}
 p, li{font-size: 1.2em;}
 li{list-style-type:none;}
-a{text-decoration:none;color:#44AFDD;}
-a:hover{text-decoration:underline;}
-a:hover:visited{text-decoration:underline;}
+a{text-decoration:none;color:#00478F;}
+a:hover{text-decoration:underline;color:#00478F;}
+a:hover:visited{text-decoration:underline;color:#85765F;}
 a:visited{color:#85765F;}
 a > img {border: none;}
 
 .container {
   width: 620px;
-  margin: 0 auto 8em;/* 200px auto;*/
+  margin: 0 auto 8em;
 }
 
 .content {
   background-color: white;
   padding: 2em;
-/*  margin-bottom: 8em;*/
-/*  margin: 2em;*/
-  /*    -moz-border-radius-bottomright: 14px;
-  -moz-border-radius-bottomleft: 14px;*/
-/*  -moz-border-radius: 14px;*/
-/*  -webkit-border-bottom-left-radius:14px; /* bottom left corner */*/
-/*  -webkit-border-bottom-right-radius: 14px; /* bottom right corner */*/
+  border-top: 1em solid #DDE3AF;
 }
 
 #navigation {width: 100%; font-size: 1.2em; margin-top: 1.5em;}
 #navigation ol {text-align: right;}
 #navigation ol li {display: inline; padding-left: 0.2em;}
+#navigation a{color:#85765F; padding-left:0.2em;}
+#navigation a:visited{color:#85765F;}
+#navigation a:hover{color:#85765F; }
+#navigation a:hover:visited{color:#85765F;}
 
 /*
 Posts
@@ -121,9 +135,3 @@ Posts
 .post div.content li{
   list-style-type: disc;
 }
-
-/*
-Dynamic service driven elements
-*/
-.tweets {display: none;}
-.tweets li {list-style-type:disc;}
