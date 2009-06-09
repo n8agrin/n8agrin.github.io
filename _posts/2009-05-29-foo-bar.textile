@@ -1,8 +1,0 @@
----
-layout: curvey-post
-title: Your Data Should Be Free
----
-
-h1. foo bar
-
-goo ber
