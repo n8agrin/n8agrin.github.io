@@ -1,0 +1,137 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* typography.css */
+body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+a:focus, a:hover {color:#000;}
+a {color:#009;text-decoration:underline;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+dfn {font-weight:bold;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom:1px dotted #666;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color:#666;}
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+li ul, li ol {margin:0 1.5em;}
+ul, ol {margin:0 1.5em 1.5em 1.5em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#c3d9ff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tr.even td {background:#e5ecf9;}
+tfoot {font-style:italic;}
+caption {background:#eee;}
+.small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
+.large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
+.hide {display:none;}
+.quiet {color:#666;}
+.loud {color:#000;}
+.highlight {background:#ff0;}
+.added {background:#060;color:#fff;}
+.removed {background:#900;color:#fff;}
+.first {margin-left:0;padding-left:0;}
+.last {margin-right:0;padding-right:0;}
+.top {margin-top:0;padding-top:0;}
+.bottom {margin-bottom:0;padding-bottom:0;}
+
+/*
+Dark brown: 262318
+Mid brown: 2E1E15
+Light brown: 473D2A
+Dark green: 5D7B2C
+Light green: 93B02A
+Aqua-green: 468966
+Blue: 44AFDD
+Golden-Yellow: FFF0A5
+Orange-Yellow: FFB03B
+Flame-Orange: B64926
+Burnt-Orange: 8E2800
+
+Nice brown: 1B1000
+
+*/
+
+/**
+Final color choices:
+http://www.colourlovers.com/palette/848113/sea_foam
+
+body color:         2B271F  // Brown
+content top border: DDE3AF  // Yellow-green
+nav-link:           85765F  // Light brown
+nav-link-visited:   85765F  // Light brown
+link:               00478F  // Significant blue
+link-visited:       8F6F40  // Orangish brown
+font color          313131  // Dark greyish
+**/
+
+body{background-color: #2B271F; font-family:Arial,"MS Trebuchet",sans-serif; color: #313131;}
+h1 {font-size: 2.5em; color: #313131; font-weight: bolder;}
+p, li{font-size: 1.2em;}
+li{list-style-type:none;}
+a{text-decoration:none;color:#00478F;}
+a:hover{text-decoration:underline;color:#00478F;}
+a:hover:visited{text-decoration:underline;color:#85765F;}
+a:visited{color:#85765F;}
+a > img {border: none;}
+
+.container {
+  width: 620px;
+  margin: 0 auto 8em;
+}
+
+.content {
+  background-color: white;
+  padding: 2em;
+  border-top: 1em solid #DDE3AF;
+}
+
+#navigation {width: 100%; font-size: 1.2em; margin-top: 1.5em;}
+#navigation ol {text-align: right;}
+#navigation ol li {display: inline; padding-left: 0.2em;}
+#navigation a{color:#85765F; padding-left:0.2em;}
+#navigation a:visited{color:#85765F;}
+#navigation a:hover{color:#85765F; }
+#navigation a:hover:visited{color:#85765F;}
+
+/*
+Posts
+*/
+
+.post {
+  width: 550px;
+  margin: 0 auto;
+}
+.post div.content{
+  margin-bottom: 1em;
+  text-align: justify;
+  border-bottom: 2px solid #5D7B2C;
+}
+.post div.content li{
+  list-style-type: disc;
+}
