@@ -2,48 +2,9 @@
 layout: home
 title: "Nate Agrin"
 ---
-<div class="span-16 last home">
+<div class="span-17 last home">
+  <a href="http://www.flickr.com/photos/n8agrin/4146040681/" title="K&amp;R's Wedding by n8agrin, on Flickr"><img src="http://farm3.static.flickr.com/2707/4146040681_aee8ecfdcc_m.jpg" width="270" alt="K&amp;R's Wedding" /></a>
 	<h1>Nate Agrin</h1>
-	{% include navigation.html %}
+  <hr/>
+  <p>I'm a traveler, web developer, photographer, surfer and snowboarder. I'm interested in information visualization and how communities use communication technologies in creative, disruptive ways. I admire simple, minimalist design. I'm employed at <a href="http://www.splunk.com">Splunk</a> as a User Interface Engineer where I aspire to make fun, useful software. I write short observations on <a href="http://www.twitter.com/n8agrin">Twitter</a>, and longer comments here, often about technology. Lauren took this photo of me.</p>
 </div>
-
-<!--
-<div class="span-8">
-	<div class="posts">
-		<h2><a href="">Recently written</a></h2>
-		{% for post in site.posts limit:1 %}
-		<h4><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></h4>
-		{{ post.content | truncatewords:60 }}
-		{% endfor %}
-		{% for post in site.posts offset:1 limit:4 %}
-		<h4><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></h4>
-		{% endfor %}
-	</div>
-	<div>
-		<h2><a herf="">Projects</a></h2>
-		<h3>splunkrb</h3>
-		<h3>inaturalist</h3>
-	</div>
-</div>
-
-<div class="span-8 last">
-	<h2>About me</h2>
-	<p>I'm a traveler, web developer, photographer, surfer and snowboarder. I'm interested in information visualization and how communities use communication technologies in creative, disruptive ways. I admire simple, minimalist design. I'm employed at <a href="http://www.splunk.com">Splunk</a> as a User Interface Engineer where I aspire to make fun, useful software.</p>
-	<h2><a href="http://www.twitter.com/n8agrin">Twitter</a></h2>
-	<ol id="tweets"></ol>
-</div>
-
-<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" charset="utf-8">
-	var url = "http://twitter.com/statuses/user_timeline/n8agrin.json?callback=?";
-	var options = { count: 5 };
-	$.getJSON(url, options, function(data, st){
-		$.each(data, function(i) {
-			$('#tweets').append($('<li/>').text(this.text));
-			if (i < 4) {
-				$('#tweets').append('<hr/>');
-			}
-		});
-	});
-</script>
--->
