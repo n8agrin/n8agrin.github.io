@@ -1,0 +1,16 @@
+---
+layout: curvey
+title: "Nate Agrin: Writing"
+---
+
+<div class="span-16 last writing">
+  <h2>Writing</h2>
+  <table class="posts">
+  {% for post in site.posts %}
+    <tr>
+      <td class="post-date">{{ post.date | date_to_string }}</td>
+      <td class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+  {% endfor %}
+  </table>
+</div>

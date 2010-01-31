@@ -1,0 +1,16 @@
+---
+layout: curvey
+---
+<div class="post span-16 last">
+  <div class="post_header">
+    <h2>{{ page.title }}</h2>
+    <h4 class="published">Published, {{ page.date | date_to_string }}</h4>
+    {% if page.updated %}
+    <h4 class="updated">Updated, {{ page.updated | date_to_string }}</h4>
+    {% endif %}
+  </div>
+  
+  <div class="post_content">
+      {{ content }}
+  </div>
+</div>

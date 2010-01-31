@@ -2,8 +2,6 @@
 layout: curvey
 title: "n8agrin.com: Resume"
 ---
-h1. Nathan Agrin
-
 h2. Profile
 
 Really great guy

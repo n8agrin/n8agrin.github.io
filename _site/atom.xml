@@ -4,7 +4,7 @@
  <title>Nate Agrin</title>
  <link href="http://www.n8agrin.com/atom.xml" rel="self"/>
  <link href="http://www.n8agrin.com/"/>
- <updated>2009-06-08T23:36:36-07:00</updated>
+ <updated>2010-01-30T17:29:31-08:00</updated>
  <id>http://www.n8agrin.com/</id>
  <author>
    <name>Nate Agrin</name>
@@ -13,10 +13,18 @@
 
  
  <entry>
-   <title>One Whole Year Ago</title>
-   <link href="http://www.n8agrin.com/2005/10/18/One-Whole-Year-Ago.html"/>
-   <updated>2005-10-18T00:00:00-07:00</updated>
-   <id>http://www.n8agrin.com/2005/10/18/One-Whole-Year-Ago</id>
+   <title>Apple Tablet Predictions</title>
+   <link href="http://www.n8agrin.com/2010/01/03/what-i-want-from-an-apple-tablet.html"/>
+   <updated>2010-01-03T00:00:00-08:00</updated>
+   <id>http://www.n8agrin.com/2010/01/03/what-i-want-from-an-apple-tablet</id>
+   <content type="html">&lt;p&gt;foo bar baz&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays Devdays</title>
+   <link href="http://www.n8agrin.com/2009/11/19/devdays-was-waste.html"/>
+   <updated>2009-11-19T00:00:00-08:00</updated>
+   <id>http://www.n8agrin.com/2009/11/19/devdays-was-waste</id>
    <content type="html">&lt;p&gt;One whole year ago&amp;#8230; One year ago I was stepping off a plane and into a world I never thought I would see. One year ago I packed my winter clothes in my closet, my summer close in a backpack, and headed to the other side of the world. One year ago, and it feels like just yesterday. I literally remember specifics about my first day in New Zealand, and can recall the sequence of initial events; the alien vegetation on the way from the airport, meeting Ben in the hostel, and finding great espresso in a foreign city.&lt;/p&gt;
 &lt;p&gt;This week my one year, once-in-a-lifetime visa to live and work freely in New Zealand expired.  It would be untruthful to say that I was not upset by that fact.  Dishonest to think I didn’t romance the ideas of what could have been had I stayed the winter there. Where would i be now?&lt;/p&gt;
 &lt;p&gt;To a certain degree I regret coming home. I miss the wandering lifestyle, my crappy car, my surfboards, the sand in my &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69862001/in/set-1504232/&quot;&gt;bed&lt;/a&gt;, the cold hard ground of my &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/71368215/in/set-1504232/&quot;&gt;tent&lt;/a&gt;, driving around with two people and so much stuff you couldn’t see out the back door.  I miss &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69861850/in/set-1504232/&quot;&gt;kiteboarding with Sean&lt;/a&gt; and asking Phil for a wetsuit. I miss the views from &lt;a href=&quot;http://www.solscape.co.nz/&quot;&gt;Solscape&lt;/a&gt;, and the people I met there. I miss the Coromandel, the ocean and the smell of saltwater. I miss the sunrises and the &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69861637/in/set-1504232/&quot;&gt;sunsets&lt;/a&gt;, the rainstorms and the hot days of February, the look of the sea in the morning, the power of the water and the serenity of the environment. Most of all i miss the &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69862078/in/set-1504232/&quot;&gt;&lt;span class=&quot;caps&quot;&gt;STARS&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -34,6 +42,50 @@
 &lt;/ul&gt;
 &lt;p&gt;Do not ever be tied to a lifestyle, nothing physical is needed. Wants and desire are temporary fulfillment. True work is lasting fulfillment. Carry only the tools you need to accomplish this fulfillment, everything else is an anchor, a weight that limits your range in life.&lt;/p&gt;
 &lt;h3&gt;Feel alive; ask &amp;#8216;Why?&amp;#8217;&lt;/h3&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Setting up distcc and launchd</title>
+   <link href="http://www.n8agrin.com/2009/11/02/setting-up-distcc-with-launchd.html"/>
+   <updated>2009-11-02T00:00:00-08:00</updated>
+   <id>http://www.n8agrin.com/2009/11/02/setting-up-distcc-with-launchd</id>
+   <content type="html">&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;foo&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Liquid Tags In Jekyll</title>
+   <link href="http://www.n8agrin.com/2009/11/02/liquid-tags-in-jekyll.html"/>
+   <updated>2009-11-02T00:00:00-08:00</updated>
+   <id>http://www.n8agrin.com/2009/11/02/liquid-tags-in-jekyll</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>One Whole Year Ago</title>
+   <link href="http://www.n8agrin.com/2005/10/18/One-Whole-Year-Ago.html"/>
+   <updated>2005-10-18T00:00:00-07:00</updated>
+   <id>http://www.n8agrin.com/2005/10/18/One-Whole-Year-Ago</id>
+   <content type="html">&lt;p&gt;One whole year ago&amp;#8230; One year ago I was stepping off a plane and into a world I never thought I would see. One year ago I packed my winter clothes in my closet, my summer close in a backpack, and headed to the other side of the world. One year ago, and it feels like just yesterday. I literally remember specifics about my first day in New Zealand, and can recall the sequence of initial events; the alien vegetation on the way from the airport, meeting Ben in the hostel, and finding great espresso in a foreign city.&lt;/p&gt;
+&lt;p&gt;This week my one year, once-in-a-lifetime visa to live and work freely in New Zealand expired.  It would be untruthful to say that I was not upset by that fact.  Dishonest to think I didn’t romance the ideas of what could have been had I stayed the winter there. Where would i be now?&lt;/p&gt;
+&lt;p&gt;To a certain degree I regret coming home. I miss the wandering lifestyle, my crappy car, my surfboards, the sand in my &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69862001/in/set-1504232/&quot;&gt;bed&lt;/a&gt;, the cold hard ground of my &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/71368215/in/set-1504232/&quot;&gt;tent&lt;/a&gt;, driving around with two people and so much stuff you couldn’t see out the back door.  I miss &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69861850/in/set-1504232/&quot;&gt;kiteboarding with Sean&lt;/a&gt; and asking Phil for a wetsuit. I miss the views from &lt;a href=&quot;http://www.solscape.co.nz/&quot;&gt;Solscape&lt;/a&gt;, and the people I met there. I miss the Coromandel, the ocean and the smell of saltwater. I miss the sunrises and the &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69861637/in/set-1504232/&quot;&gt;sunsets&lt;/a&gt;, the rainstorms and the hot days of February, the look of the sea in the morning, the power of the water and the serenity of the environment. Most of all i miss the &lt;a href=&quot;http://www.flickr.com/photos/n8agrin/69862078/in/set-1504232/&quot;&gt;&lt;span class=&quot;caps&quot;&gt;STARS&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Transformation is an interesting thing, and I think that by going somewhere new, I was able to, eventually, transform myself into someone else. I survived and I learned about what I valued in life.  Perhaps most importantly I became happy, if at least for a time. I finally admitted my inner truths to myself. I let myself be mad about the things that made me mad and happy about the things that made me happy.&lt;/p&gt;
+&lt;p&gt;Experiencing that has changed my perspective on not just traveling, but living. I ended with, not a new sense  of self, but a truer sense of self.&lt;/p&gt;
+&lt;p&gt;Now I am back in the US, with a new job and new ambitions, but ones that center around what excites me and makes me happy. Until last week I had never faced a day excited to go to work. Now I wake up knowing &lt;a href=&quot;http://chnm.gmu.edu&quot;&gt;someone is going to pay me&lt;/a&gt; to follow my passion.&lt;/p&gt;
+&lt;p&gt;I’ll end this reflection with something I wrote the other day. I was researching some &lt;a href=&quot;http://ischool.berkeley.edu&quot;&gt;graduate school programs&lt;/a&gt; and I decided to come up with a list of objectives, a credo, so to speak, of how I see and aim to live my life. This isn’t necessarily a 180 from where I was a year, or a year and a half ago, but maybe it is a testament to my transition and to my fundamental shift in attitude.&lt;/p&gt;
+&lt;p&gt;Goals in life:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be free, never have a cage.&lt;/li&gt;
+	&lt;li&gt;Stay adventurous. Explore new places, things, traditions, and beliefs.&lt;/li&gt;
+	&lt;li&gt;Challenge yourself, physically, mentally and spiritually. Never stop trying to push yourself to new limits.&lt;/li&gt;
+	&lt;li&gt;Keep learning. Keep adding new knowledge about everything.&lt;/li&gt;
+	&lt;li&gt;Explore and discover. Find &lt;span class=&quot;caps&quot;&gt;NEW&lt;/span&gt; things.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do not ever be tied to a lifestyle, nothing physical is needed. Wants and desire are temporary fulfillment. True work is lasting fulfillment. Carry only the tools you need to accomplish this fulfillment, everything else is an anchor, a weight that limits your range in life.&lt;/p&gt;
+&lt;p&gt;Feel alive, keep asking &lt;strong&gt;&amp;#8220;Why?&amp;#8221;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Updates:&lt;br /&gt;
+30 Dec 2009: Fixed some formatting.&lt;/p&gt;</content>
  </entry>
  
  

@@ -1,6 +1,6 @@
 h1. n8agrin.com
 
-This is Nate Agrin's site.  It's based of the very lovely "Jekyll":http://www.jekyllrb.com site and blog generator.
+This is Nate Agrin's site.  It's based off the very lovely "Jekyll":http://www.jekyllrb.com site and blog generator.
 
 h1. License
 
@@ -11,7 +11,7 @@ Posts and images are Copyright Nathan Agrin unless otherwise noted. You may not 
 
 Other directories and files are MIT Licensed. HTML and CSS, in their raw form are free to use, however HTML and CSS encoded versions of the information located in the _posts and _images directory are not free to use and are covered by the aforementioned copyright.
 
-Copyright &copy; 2009 Nathan Agrin
+Copyright &copy; 2010 Nathan Agrin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
