@@ -1,11 +1,14 @@
-/* @override http://localhost:4000/css/new_bold.css */
-
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+a:hover {
+	color: #000099;
+	border-bottom: 0.2em solid;
 }
 
 a img {
@@ -30,11 +33,6 @@ Navigation
 	list-style-type: none;
 	font-size: 1.6em;	
 	text-align: right;
-}
-
-.navigation li a:hover {
-	color: #000099;
-	border-bottom: 0.2em solid;
 }
 
 /*
@@ -85,18 +83,13 @@ Writing
 /*
 Post
 */
-.post p {
-	text-align: justify;
-}
 
-.post hr {
-    height: 0.2em;
-}
-
-.post h4 {
-/*  font-size: 1em;*/
-/*  padding-bottom: 1em;*/
+h4.post-date {
     margin: 0;
+}
+
+p.post-title {
+    font-size: 1.2em;
 }
 
 .post div.post_header h4 {    
