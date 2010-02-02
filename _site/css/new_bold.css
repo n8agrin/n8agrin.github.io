@@ -29,16 +29,11 @@ a img {
 /*
 Navigation
 */
-.navigation {
-	margin: 16px 0 0 0;
+.navigation ul {
 	padding: 0;
 	list-style-type: none;
 	font-size: 1.6em;	
-}
-
-.navigation li {
-    display: inline;
-	padding-right: 8px;
+	text-align: right;
 }
 
 .navigation li a {
@@ -56,14 +51,16 @@ Home
 
 .home h1 {
 	margin: 0;
-    font-size: 14em;
-	letter-spacing: -6px;
+    font-size: 10em;
+/*	letter-spacing: -6px;*/
 	display: inline;
+
 }
 
 .home img {
-    margin-top: 24px;
-    float: right;
+/*    margin-top: 24px;*/
+/*	margin-bottom: 20px;*/
+/*    float: left;*/
 }
 
 .home p {
@@ -79,18 +76,6 @@ Header
     margin-top: 1em;
 }
 
-.header .non-nav {
-	font-size: 1.6em;	
-	font-weight: bold;    
-}
-
-.header .nav-container{
-    text-align: right;
-}
-
-.header .nav-container ul {
-    display: inline;
-}
 
 /*
 About
