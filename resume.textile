@@ -1,6 +1,7 @@
 ---
 layout: curvey
 title: "n8agrin.com: Resume"
+id: resume
 ---
 h2. Profile
 
