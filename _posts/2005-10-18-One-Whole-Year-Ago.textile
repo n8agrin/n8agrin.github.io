@@ -1,5 +1,5 @@
 ---
-layout: new_writing
+layout: home
 title: One Whole Year Ago
 updated: 2009-12-30
 ---
