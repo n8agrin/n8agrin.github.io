@@ -1,8 +1,10 @@
 ---
-layout: home
+layout: post
 title: One Whole Year Ago
-updated: 2009-12-30
 ---
+
+h4(title). {{ page.title }} - {{ page.date | date: "%m.%d.%Y"}}
+
 One whole year ago... One year ago I was stepping off a plane and into a world I never thought I would see. One year ago I packed my winter clothes in my closet, my summer close in a backpack, and headed to the other side of the world. One year ago, and it feels like just yesterday. I literally remember specifics about my first day in New Zealand, and can recall the sequence of initial events; the alien vegetation on the way from the airport, meeting Ben in the hostel, and finding great espresso in a foreign city.
 
 This week my one year, once-in-a-lifetime visa to live and work freely in New Zealand expired.  It would be untruthful to say that I was not upset by that fact.  Dishonest to think I didn’t romance the ideas of what could have been had I stayed the winter there. Where would i be now?
@@ -32,4 +34,4 @@ Feel alive, keep asking *"Why?"*
 ***
 
 Updates:
-30 Dec 2009: Fixed some formatting.
+12.30.2009: Fixed some formatting.

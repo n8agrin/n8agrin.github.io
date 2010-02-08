@@ -1,5 +1,7 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 a {
@@ -8,10 +10,54 @@ a {
 
 a:hover {
 	color: #000099;
-	border-bottom: 0.2em solid;
+	border-bottom: 2px solid;
 }
 
-a img {
+
+a:hover.img-link {
+    border-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+td {
+    vertical-align: top;
+    padding: 0 1em 0 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/*
+Creates a 17 column wide grid.
+*/
+.container {
+  	width: 550px;
+}
+
+/*
+Navigation
+*/
+.navigation ul {
+	text-align: right;
+}
+
+/*
+Home
+*/
+.home p {
+    text-align: justify;
+}
+
+.home img {
+    width: 430px;
+}
+
+.home a img {
 	margin-bottom: 1.5em;
     border: 1.5em solid #594D4F;
     -webkit-box-shadow: 0px 0px 10px #888;
@@ -19,83 +65,25 @@ a img {
 }
 
 /*
-Creates a 17 column wide grid.
-*/
-.container {
-  	width: 670px;
-}
-
-/*
-Navigation
-*/
-.navigation ul {
-	padding: 0;
-	list-style-type: none;
-	font-size: 1.6em;	
-	text-align: right;
-}
-
-/*
-Home
-*/
-
-.home p {
-    font-size: 1.6em;
-    text-align: justify;
-}
-
-/*
 Header
 */
-
 .header {
     margin-top: 1em;
-}
-
-
-/*
-About
-*/
-.about p {
-    text-align: justify;
-}
-
-/*
-Writing
-*/
-.writing td {
-	padding: 2px;
-}
-
-.writing tr td.post-date {
-    font-family: "Courier New", Courier, mono;
-	color: #747474;
-	width: 100px;
-	font-size: 1.2em;
-	vertical-align: top;
-}
-
-.writing tr td.post-title {
-	font-family: inherit;
-	font-size:  1.2em;
 }
 
 /*
 Post
 */
-
-h4.post-date {
-    margin: 0;
+.post p {
+    text-align: justify;
 }
 
-p.post-title {
-    font-size: 1.2em;
+.post h4.title {
+    font-weight: bold;
+    margin-bottom: 14px;
 }
 
-.post div.post_header h4 {    
-    padding: 0;
-}
-
-.post div.post_header h4.updated {
-    margin-bottom: 1em;
+.post ul {
+    list-style-type: disc;
+    padding: 0 1em;
 }
