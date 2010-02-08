@@ -87,3 +87,12 @@ Post
     list-style-type: disc;
     padding: 0 1em;
 }
+
+/*Resume*/
+.resume li{
+    text-align: justify;
+}
+
+.resume ul {
+    list-style-type: disc;
+}
