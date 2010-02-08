@@ -1,7 +1,0 @@
----
-layout: post
-title: Setting up distcc and launchd
-updated: 2009-11-02
----
-
-h1. foo
