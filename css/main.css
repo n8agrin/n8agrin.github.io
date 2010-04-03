@@ -1,7 +1,9 @@
+/* @override http://localhost:4000/css/main.css */
+
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 a {
@@ -21,6 +23,12 @@ a:hover.img-link {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0.5em 0;
+}
+
+ul li {
+    display: inline;
+    padding-right: 0.8em;
 }
 
 td {
@@ -42,13 +50,18 @@ Creates a 17 column wide grid.
 /*
 Navigation
 */
+.navigation {
+	margin-bottom: 10px;
+}
 .navigation ul {
-	text-align: right;
+	text-align: left;
 }
 
-/*
-Home
-*/
+.header h1 {
+	margin-bottom: 44px;
+}
+
+/* Home */
 .home p {
     text-align: justify;
 }
@@ -64,16 +77,7 @@ Home
     -moz-box-shadow: 0px 0px 10px #888;
 }
 
-/*
-Header
-*/
-.header {
-    margin-top: 1em;
-}
-
-/*
-Post
-*/
+/* Post */
 .post p {
     text-align: justify;
 }
@@ -88,11 +92,29 @@ Post
     padding: 0 1em;
 }
 
-/*Resume*/
-.resume li{
+/* Resume */
+.resume ul {
+    list-style-type: disc;
     text-align: justify;
 }
 
-.resume ul {
-    list-style-type: disc;
+.resume h2 {
+	margin-top: 1.6em;
+	margin-bottom: 0;
+}
+
+.resume h6 {
+	margin-top: 1.6em;
+}
+
+div.resume h2:first-child {
+	margin-top: 0;
+}
+
+.resume hr {
+	margin-top: 1.6em;
+}
+
+div.resume {
+	margin-bottom: 40em;
 }
