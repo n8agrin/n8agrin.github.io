@@ -3,20 +3,26 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Nate Agrin" />
-  <title>{{ page.title }}</title>
+  
+  <title>Nate Agrin: {{ page.title }}</title>
+  
   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen" charset="utf-8"></link>
-  <link rel="stylesheet" href="/css/new_bold.css" type="text/css" media="screen" title="no title" charset="utf-8"></link>
-  <script type="text/javascript" charset="utf-8" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8"></link>
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 <body>
   <div class="container">
-    <div class="span-17 last header">
-      <div class="nav-container">
-        {% include navigation.html %}
-      </div>
+    <div class="span-12 prepend-2 last header">
+      <h1>Nate Agrin</h1>
     </div>
-  {{ content }}
+    <div class="span-2 navigation">
+      {% include navigation.html %}
+    </div>
+    <div class="span-12 last">
+        {{ content }}
+    </div>
   </div>
   <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
   <script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-248105-3"); pageTracker._trackPageview();} catch(err) {}</script>

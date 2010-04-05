@@ -1,5 +1,0 @@
----
-layout: new_writing
-title: Apple Tablet Predictions
----
-foo bar baz

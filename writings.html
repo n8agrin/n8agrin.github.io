@@ -1,0 +1,16 @@
+---
+layout: main
+title: Writings
+---
+<table>
+  <tbody> 
+    {% for post in site.posts %}
+    <tr>
+      <td>{{ post.date | date: "%m.%d.%Y" }}</td>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<hr/>
+<a href="/atom.xml"><img src="/images/feed-icon-28x28.png" /></a>
