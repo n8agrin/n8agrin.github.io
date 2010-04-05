@@ -66,8 +66,8 @@ h2. Other Interesting Bits
 
 h6. Some things I know
 
-* Javascript, Python, HTTP, HTML (v5, canvas, svg, etc), Ruby, CSS, PHP, XML, XSLT, XPath, SQL, Geolocation, Ruby on Rails, jQuery, Cherrypy, Tornado, Google App Engine, Facebook Connect, Google Maps, some iPhone stuff, how to extract DNA and RNA from cells, basic carpentry, plumbing, electrical systems, etc.
+Javascript, Python, HTTP, HTML (v5, canvas, svg, etc), Ruby, CSS, PHP, XML, XSLT, XPath, SQL, Geolocation, Ruby on Rails, jQuery, Cherrypy, Tornado, Google App Engine, Facebook Connect, Google Maps, some iPhone stuff, how to extract DNA and RNA from cells, basic carpentry, plumbing, electrical systems, etc.
 
 h6. Some things I like
 
-* Photography, snowboarding, surfing, travel, yoga, Street Fighter II, running, hiking.
+Photography, snowboarding, surfing, travel, yoga, Street Fighter II, running, hiking.
