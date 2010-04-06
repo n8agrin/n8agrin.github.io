@@ -4,21 +4,13 @@
  <title>Nate Agrin</title>
  <link href="http://www.n8agrin.com/atom.xml" rel="self"/>
  <link href="http://www.n8agrin.com/"/>
- <updated>2010-04-05T23:39:50-07:00</updated>
+ <updated>2010-04-05T23:44:30-07:00</updated>
  <id>http://www.n8agrin.com/</id>
  <author>
    <name>Nate Agrin</name>
    <email>nate@n8agrin.com</email>
  </author>
 
- 
- <entry>
-   <title>Test</title>
-   <link href="http://www.n8agrin.com/2010/04/05/Test.html"/>
-   <updated>2010-04-05T00:00:00-07:00</updated>
-   <id>http://www.n8agrin.com/2010/04/05/Test</id>
-   <content type="html">&lt;h1&gt;hi&lt;/h1&gt;</content>
- </entry>
  
  <entry>
    <title>One Whole Year Ago</title>
