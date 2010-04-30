@@ -5,10 +5,11 @@
   <meta name="author" content="Nate Agrin" />
   
   <title>Nate Agrin: Resume</title>
-  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8"></link>
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
+  <!-- <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -81,6 +82,7 @@ Worcester, Massachusett.</p>
 <p>Photography, snowboarding, surfing, travel, yoga, Street Fighter II, running, hiking.</p>
 </div>
     <div class="footer">
+      <div id="tweets"></div>
       <div class="contact">
         <p>
           <a href="http://www.n8agrin.com">Nate Agrin</a><br />
@@ -98,5 +100,13 @@ Worcester, Massachusett.</p>
       </div>
     </div>
   </div>
+  <script type="text/javascript" charset="utf-8">
+  
+    function twitterCallback(resp) {
+      var tweets = $.map(resp, function(e) {return e.text;});
+      console.log(tweets);
+    }
+    $.getScript('http://twitter.com/statuses/user_timeline/n8fortunecookie.json?callback=twitterCallback');
+  </script>
 </body>
 </html>
