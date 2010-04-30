@@ -82,7 +82,6 @@ Worcester, Massachusett.</p>
 <p>Photography, snowboarding, surfing, travel, yoga, Street Fighter II, running, hiking.</p>
 </div>
     <div class="footer">
-      <div id="tweets"></div>
       <div class="contact">
         <p>
           <a href="http://www.n8agrin.com">Nate Agrin</a><br />
@@ -99,12 +98,15 @@ Worcester, Massachusett.</p>
         <a href="/atom.xml"><img src="/images/feed-icon-28x28.png" alt="Subscribe to RSS Feed" /></a>
       </div>
     </div>
+    <div id="n8fortunecookie"></div>
   </div>
   <script type="text/javascript" charset="utf-8">
-  
     function twitterCallback(resp) {
       var tweets = $.map(resp, function(e) {return e.text;});
-      console.log(tweets);
+      var rnd = ~~(Math.random()*tweets.length);
+      $('#n8fortunecookie')
+        .text(tweets[rnd] + " - ")
+        .append('<a href="https://twitter.com/n8fortunecookie">@n8fortunecookie</a>');
     }
     $.getScript('http://twitter.com/statuses/user_timeline/n8fortunecookie.json?callback=twitterCallback');
   </script>

@@ -1,0 +1,33 @@
+h1. n8agrin.com
+
+This is Nate Agrin's site.  It's based off the very lovely "Jekyll":http://www.jekyllrb.com site and blog generator.
+
+h1. License
+
+Posts and images are Copyright Nathan Agrin unless otherwise noted. You may not reuse anything within these directories without my express permission:
+
+* _posts/
+* images/
+
+Other directories and files are MIT Licensed. HTML and CSS, in their raw form are free to use, however HTML and CSS encoded versions of the information located in the _posts and _images directory are not free to use and are covered by the aforementioned copyright.
+
+Copyright &copy; 2010 Nathan Agrin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
