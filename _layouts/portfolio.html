@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Nate Agrin" />
+  
+  <title>Nate Agrin: {{ page.title }}</title>
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <link rel="stylesheet" href="/css/portfolio.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="site">
+    <div class="title">{% include navigation.html %}</div>
+    {{ content }}
+    <div class="footer">
+      <div class="contact">
+        <p>
+          <a href="http://www.n8agrin.com">Nate Agrin</a><br />
+        </p>
+      </div>
+      <div class="contact">
+        <p>
+          <a href="http://github.com/n8agrin/">github.com/n8agrin</a><br />
+          <a href="http://twitter.com/n8agrin/">twitter.com/n8agrin</a><br />
+          <a href="http://flickr.com/photos/n8agrin/">flickr.com/photos/n8agrin</a>
+        </p>
+      </div>
+      <div class="rss">
+        <a href="/atom.xml"><img src="/images/feed-icon-28x28.png" alt="Subscribe to RSS Feed" /></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

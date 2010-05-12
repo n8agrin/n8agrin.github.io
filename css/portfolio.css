@@ -1,0 +1,6 @@
+li { display: inline; }
+li div {display :inline;}
+li.item { width: 100px; height: 100px; background-color: #3c3c3c; margin:2px; padding:0; border: double black 4px; list-style-type: none;}
+li.item img { height: 100px; width: 100px; }
+div#display { height: 475px; text-align: center; border-bottom: 4px solid #EEEEEE; padding-bottom: 1em; }
+.clearBoth { clear: both; }
