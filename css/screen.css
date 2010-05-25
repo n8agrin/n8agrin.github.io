@@ -160,18 +160,25 @@ td.post_url {
     text-align: center;
 }
 
-.portfolio-entry ul.thumbnails {
-    text-align: justify;
+.portfolio-entry ul.gallery {
+/*    text-align: justify;*/
 }
 
-.portfolio-entry ul.thumbnails li {
-    display: inline;
+.portfolio-entry ul.gallery li {
+    display: inline-block;
     list-style-type: none;
+/*    margin-right: 1px;*/
 }
 
-.portfolio-entry ul.thumbnails li img {
+.portfolio-entry ul.gallery li img {
+    -webkit-transition: border 0.2s ease-in;
     border: 4px solid #3c3c3c;
-/*    -webkit-box-shadow: 0px 0px 4px #000;*/
+    height: 70px;
+    width: 70px;
+}
+.portfolio-entry ul.gallery li img:hover {
+    -webkit-transition: border-color 0.2s ease-in;
+    border-color: #0063dc;
 }
 
 
