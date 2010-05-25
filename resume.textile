@@ -3,6 +3,15 @@ layout: resume
 title: Resume
 ---
 
+"text version":/resume.txt
+
+h2. Objective
+
+p(objective). I love building the fastest, simplest and most intuitive web interfaces I can.
+I embrace the web and the technologies that drive its development forward.
+I want to continue leading the development of new unique web applications.
+I want to continue learning from everyone who makes the web what it is.
+
 h2. Education
 
 h6. Master of Information Management Systems, May 2008

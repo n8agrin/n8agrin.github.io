@@ -156,6 +156,10 @@ td.post_url {
 	list-style-position: inside;
 }
 
+.resume p.objective {
+    margin-top: 2em;
+}
+
 #n8fortunecookie {
     text-align: center;
 }
