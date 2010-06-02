@@ -7,7 +7,7 @@ email: (n8agrin) begins
 
 == Objective ==
 
-I love building the fastest, simplest and most intuitive web-based interfaces I can.
+I love building the fastest, most intuitive web-based interfaces I can.
 I embrace the web and the technologies that drive its development forward.
 I want to continue leading the development of new unique web applications.
 I want to continue learning from everyone who makes the web what it is.
@@ -18,8 +18,8 @@ I want to continue learning from everyone who makes the web what it is.
 User Interface Engineer, Splunk Inc. July 2008 - Present
 San Francisco, California. [www.splunk.com]
 
-  Worked as part of a small, agile team completely rewriting and architecting the web
-  based user interface powered by Splunk, a log file search engine.
+  Worked as part of a small, agile team completely rewriting and architecting
+  the Splunk user interface, all built around standard web technologies.
   
   Communicated with other in-house engineering, design and testing groups to
   facilitate rapid development during a period of swift growth.
