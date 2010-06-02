@@ -7,7 +7,7 @@ email: (n8agrin) begins
 
 == Objective ==
 
-I love building the best, fastest, simplest and intuitive web-based interfaces I can.
+I love building the fastest, simplest and most intuitive web-based interfaces I can.
 I embrace the web and the technologies that drive its development forward.
 I want to continue leading the development of new unique web applications.
 I want to continue learning from everyone who makes the web what it is.
