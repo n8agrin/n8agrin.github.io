@@ -50,13 +50,13 @@ table {
 
 /* General */
 hr {
-    height: 4px;
-    background-color: #eee;
+  height: 4px;
+  background-color: #eee;
 	border-style: none;
 }
 
 a img {
-    border: 0;
+  border: 0;
 }
 
 /* Site */

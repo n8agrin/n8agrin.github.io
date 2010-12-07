@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Nate Agrin" />
   
-  <title>Nate Agrin: Home</title>
+  <title>Nate Agrin: {{ page.title }}</title>
   <!-- <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" /> -->
   <link rel="stylesheet" href="/css/960grid.css" type="text/css" media="screen" title="no title" charset="utf-8" />
   <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" title="no title" charset="utf-8" />
@@ -16,30 +16,8 @@
 
 <body>
   <div class="site">
-    <div class="title"><span>Nate Agrin</span>
-<a href="/" class="extra">home</a>
-<a href="/writings.html" class="extra">writings</a>
-<a href="/resume.html" class="extra">resume</a>
-<a href="/portfolio.html" class="extra">portfolio</a>
-</div>
-    <div class="container_12">
-  <!-- <a href="http://www.flickr.com/photos/n8agrin/3798584746/" title="Yours, truely by n8agrin, on Flickr" class="img-link"><img src="http://farm3.static.flickr.com/2507/3798584746_b6c2916abd.jpg" alt="Yours, truely" /></a> -->
-	<div class="grid_8">foo</div>
-  <!-- <p>I'm a traveler, web developer, photographer, surfer and snowboarder. I'm interested in how communities use communication technologies in creative, disruptive ways. I admire simple, minimalist design. I'm @n8agrin on <a href="http://www.twitter.com">Twitter</a>, where I'm also employed as a frontend engineer. Lauren took this photo.</p> -->
-</div>
-
-<script type="text/javascript" charset="utf-8">
-  function n8agrinCallback(resp) {
-    var tweets = $.map(resp, function(e) {return e.text;});
-		$('#current').text(tweets[1]);
-  }
-  $.getScript('http://twitter.com/statuses/user_timeline/n8agrin.json?callback=n8agrinCallback');
-</script>
-
-<script src="http://platform.twitter.com/anywhere.js?id=pHt1jvQq5PpXypQGuaFw&amp;v=1"></script>
-<script type="text/javascript">twttr.anywhere(function(twitter) {twitter.hovercards();});</script>
-
-
+    <div class="title">{% include navigation.html %}</div>
+    {{ content }}
     <div class="footer">
       <div class="contact">
         <p>
