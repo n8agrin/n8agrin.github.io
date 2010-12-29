@@ -1,3 +1,79 @@
-.container {
-  background-color: purple;
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Helvetica;
+  color: #007DDC;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: ;
+}
+
+.name {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.name h1 {
+  margin: 40px 0;
+}
+
+.description {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.elsewhere {
+  text-align: center;
+}
+
+.elsewhere ul {
+  margin: 40px 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.elsewhere ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 4px;
+}
+
+.nav {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 8px 0;
+}
+
+.nav ul li{
+  display: inline;
+  padding: 10px;
+}
+
+.contact {
+  text-align: center;
 }

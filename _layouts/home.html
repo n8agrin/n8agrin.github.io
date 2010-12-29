@@ -6,33 +6,23 @@
   
   <title>Nate Agrin: {{ page.title }}</title>
   <!-- <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" /> -->
-  <link rel="stylesheet" href="/css/960grid.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-  <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
-  <!-- <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+  <link rel="stylesheet" href="/css/620grid.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" charset="utf-8" />
+  
+  <link rel="alternate" type="application/atom+xml" title="n8agrin - Atom" href="http://n8agrin.blogspot.com/feeds/posts/default" />
+  <link rel="alternate" type="application/rss+xml" title="n8agrin - RSS" href="http://n8agrin.blogspot.com/feeds/posts/default?alt=rss" />
+  
+
+  <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 
 <body>
-  <div class="site">
-    <div class="title">{% include navigation.html %}</div>
+  <div class="container_8">
     {{ content }}
-    <div class="footer">
-      <div class="contact">
-        <p>
-          <a href="http://www.n8agrin.com">Nate Agrin</a><br />
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/n8agrin/">github.com/n8agrin</a><br />
-          <a href="http://twitter.com/n8agrin/">twitter.com/n8agrin</a><br />
-          <a href="http://flickr.com/photos/n8agrin/">flickr.com/photos/n8agrin</a><br/>
-          <a href="http://news.ycombinator.com/user?id=n8agrin">n8agrin @ news.ycombinator.com</a>
-        </p>
-      </div>
-    </div>
   </div>
+  <script src="http://platform.twitter.com/anywhere.js?id=pHt1jvQq5PpXypQGuaFw&amp;v=1"></script>
+  <script type="text/javascript">twttr.anywhere(function(twitter) {twitter.hovercards();});</script>
 </body>
 </html>
