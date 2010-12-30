@@ -5,43 +5,31 @@
   <meta name="author" content="Nate Agrin" />
   
   <title>Nate Agrin: {{ page.title }}</title>
-  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <link rel="stylesheet" href="/css/620grid.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" charset="utf-8" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
-  <!-- <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+  <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <link rel="stylesheet" href="/js/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
   <style type="text/css" media="screen">
     #tip7-title { text-align: left; }
-
     #tip7-title b { display: block; margin-right: 80px; }
-
     #tip7-title span { float: right; }
   </style>
 </head>
 
 <body>
-  <div class="site">
-    <div class="title">{% include navigation.html %}</div>
-    {{ content }}
-    <div class="footer">
-      <div class="contact">
-        <p>
-          <a href="http://www.n8agrin.com">Nate Agrin</a><br />
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/n8agrin/">github.com/n8agrin</a><br />
-          <a href="http://twitter.com/n8agrin/">twitter.com/n8agrin</a><br />
-          <a href="http://flickr.com/photos/n8agrin/">flickr.com/photos/n8agrin</a><br/>
-          <a href="http://news.ycombinator.com/user?id=n8agrin">n8agrin @ news.ycombinator.com</a>
-        </p>
-      </div>
-      <div class="rss">
-        <a href="/atom.xml"><img src="/images/feed-icon-28x28.png" alt="Subscribe to RSS Feed" /></a>
-      </div>
+  <div class="container_8 default"> 
+    <div class="name grid_8">
+      <h1 class="tk-league-gothic">Nate Agrin</h1>
     </div>
-    <div id="n8fortunecookie"></div>
+    <div class="nav grid_8">
+      {% include navigation.html %}
+    </div>
+    <div class="grid_7 prefix_1">
+    {{ content }}
+    </div>
   </div>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script type="text/javascript" src="/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
@@ -63,18 +51,18 @@
       showCloseButton: false
     });
   </script>
-  
-  <script type="text/javascript" charset="utf-8">
-    function twitterCallback(resp) {
-      var tweets = $.map(resp, function(e) {return e.text;});
-      var rnd = ~~(Math.random()*tweets.length);
-      $('#n8fortunecookie')
-        .text(tweets[rnd] + " - ")
-        .append('<a href="https://twitter.com/n8fortunecookie">@n8fortunecookie</a>');
-    }
-    $.getScript('http://twitter.com/statuses/user_timeline/n8fortunecookie.json?callback=twitterCallback');
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-248105-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
   </script>
-  
-  
 </body>
 </html>

@@ -1,9 +1,14 @@
 ---
 layout: resume
 title: Resume
+class: resume
 ---
 
-"text version":/resume.txt
+h2. Contact
+
+If you are a human please message me on Twitter: "@n8agrin":http://twitter.com/n8agrin
+If you are a robot, I surrender.
+If you are an alien, wow.
 
 h2. Objective
 
@@ -14,7 +19,13 @@ I want to continue learning from everyone who makes the web what it is.
 
 h2. Work Experience
 
-h6. User Interface Engineer, July 2008 - Present
+h4. User Interface Engineer, September 2010 - Present
+
+"Twitter Inc.":http://twitter.com San Francisco, California.
+
+* Top Secret Web Technologist.
+
+h4. User Interface Engineer, July 2008 - September 2010
 
 "Splunk Inc.":http://www.splunk.com San Francisco, California.
 
@@ -22,7 +33,7 @@ h6. User Interface Engineer, July 2008 - Present
 
 * Communicated with other in-house engineering, design and testing groups to facilitate rapid development during a period of swift growth.
 
-h6. Lead Web Architect, September 2007 - July 2008
+h4. Lead Web Architect, September 2007 - July 2008
 
 "iNaturalist.org":http://www.inaturalist.org Berkeley, California.
 
@@ -34,7 +45,7 @@ h6. Lead Web Architect, September 2007 - July 2008
 
 * Work accepted as part of the 2010 Where 2.0 conference.
 
-h6. User Interface Engineer, July 2007 - December 2007
+h4. User Interface Engineer, July 2007 - December 2007
 
 "Bolt | Peters":http://boltpeters.com/, "Ethnio.com":http://ethnio.com San Francisco, California.
 
@@ -43,7 +54,7 @@ h6. User Interface Engineer, July 2007 - December 2007
 * Worked as part of a team of three migrating an existing PHP application  to a Ruby on Rails based architecture using a test-driven development process.
 
 
-h6. Lead Developer, October 2005 - May 2007
+h4. Lead Developer, October 2005 - May 2007
 
 "Center for History and New Media":http://chnm.gmu.edu, "Omeka.org":http://omeka.org
 George Mason University; Fairfax, Virginia.
@@ -54,7 +65,7 @@ George Mason University; Fairfax, Virginia.
 
 * Worked on maintaining and updating digital archives with large datasets, including improving UI designs and architecture to better handle large data sets.
 
-h6. Cell Biology Researcher, October 2002 - October 2004
+h4. Cell Biology Researcher, October 2002 - October 2004
 
 University of Massachusetts at Worcester
 Worcester, Massachusett.
@@ -65,23 +76,22 @@ Worcester, Massachusett.
 
 h2. Education
 
-h6. Master of Information Management Systems, May 2008
+h4. Master of Information Management Systems, May 2008
 
 University of California at Berkeley; Berkeley, California.
 Focus: User centered design, information visualization and social uses of information.
 
-h6. Bachelor of the Arts in Molecular Biology, May 2002
+h4. Bachelor of the Arts in Molecular Biology, May 2002
 
 Clark University; Worcester, Massachusetts.
 Graduated with Highest Honors, Phi Beta Kappa National Honor Society Member.
 
-
 h2. Other Interesting Bits
 
-h6. Some things I know
+h4. Some things I know
 
 Javascript, Python, HTTP, HTML (v5, canvas, svg, etc), Ruby, CSS, PHP, XML, XSLT, XPath, SQL, Geolocation, Ruby on Rails, jQuery, Cherrypy, Tornado, Google App Engine, Facebook Connect, Google Maps, some iPhone stuff, how to extract DNA and RNA from cells, basic carpentry, plumbing, electrical systems, etc.
 
-h6. Some things I like
+h4. Some things I like
 
 Photography, snowboarding, surfing, travel, yoga, Street Fighter II, running, hiking.

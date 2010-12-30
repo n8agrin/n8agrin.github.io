@@ -1,23 +1,17 @@
 ---
 layout: home
 title: Home
+class: home
 ---
-<div class="container_12">
-  <!-- <a href="http://www.flickr.com/photos/n8agrin/3798584746/" title="Yours, truely by n8agrin, on Flickr" class="img-link"><img src="http://farm3.static.flickr.com/2507/3798584746_b6c2916abd.jpg" alt="Yours, truely" /></a> -->
-	<div class="grid_12 content">
-    <div class="tk-league-gothic">NATE AGRIN</div>
-	</div>
-  <!-- <p>I'm a traveler, web developer, photographer, surfer and snowboarder. I'm interested in how communities use communication technologies in creative, disruptive ways. I admire simple, minimalist design. I'm @n8agrin on <a href="http://www.twitter.com">Twitter</a>, where I'm also employed as a frontend engineer. Lauren took this photo.</p> -->
+<div class="grid_8 name">
+  <h1 class="tk-league-gothic">Nate Agrin</h1>
 </div>
-
-<script type="text/javascript" charset="utf-8">
-  function n8agrinCallback(resp) {
-    var tweets = $.map(resp, function(e) {return e.text;});
-		$('#current').text(tweets[1]);
-  }
-  $.getScript('http://twitter.com/statuses/user_timeline/n8agrin.json?callback=n8agrinCallback');
-</script>
-
-<script src="http://platform.twitter.com/anywhere.js?id=pHt1jvQq5PpXypQGuaFw&amp;v=1"></script>
-<script type="text/javascript">twttr.anywhere(function(twitter) {twitter.hovercards();});</script>
-
+<div class="grid_8 description">
+I am: traveler, surfer, snowboarder, bungy-jumper, pizza aficionado, photographer, pixel-pushing-web-jockey, UI engineer at Twitter. Not Sergey Brin; I think.
+</div>
+<div class="grid_8 nav">
+  {% include navigation.html %}
+</div>
+<div class="grid_8 elsewhere">
+  {% include elsewhere.html %}
+</div>

@@ -3,45 +3,61 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Nate Agrin" />
-  
+
   <title>Nate Agrin: Home</title>
-  <!-- <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" /> -->
   <link rel="stylesheet" href="/css/620grid.css" type="text/css" media="screen" charset="utf-8" />
   <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" charset="utf-8" />
-  
+
   <link rel="alternate" type="application/atom+xml" title="n8agrin - Atom" href="http://n8agrin.blogspot.com/feeds/posts/default" />
   <link rel="alternate" type="application/rss+xml" title="n8agrin - RSS" href="http://n8agrin.blogspot.com/feeds/posts/default?alt=rss" />
-  
 
   <script type="text/javascript" src="http://use.typekit.com/ruj8gye.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 
 <body>
-  <div class="container_8">
-    <div class="container_12">
-  <!-- <a href="http://www.flickr.com/photos/n8agrin/3798584746/" title="Yours, truely by n8agrin, on Flickr" class="img-link"><img src="http://farm3.static.flickr.com/2507/3798584746_b6c2916abd.jpg" alt="Yours, truely" /></a> -->
-	<div class="grid_12 content">
-    <div class="tk-league-gothic">NATE AGRIN</div>
-	</div>
-  <!-- <p>I'm a traveler, web developer, photographer, surfer and snowboarder. I'm interested in how communities use communication technologies in creative, disruptive ways. I admire simple, minimalist design. I'm @n8agrin on <a href="http://www.twitter.com">Twitter</a>, where I'm also employed as a frontend engineer. Lauren took this photo.</p> -->
+  <div class="container_8 content home">
+    <div class="grid_8 name">
+  <h1 class="tk-league-gothic">Nate Agrin</h1>
 </div>
+<div class="grid_8 description">
+I am: traveler, surfer, snowboarder, bungy-jumper, pizza aficionado, photographer, pixel-pushing-web-jockey, UI engineer at Twitter. Not Sergey Brin; I think.
+</div>
+<div class="grid_8 nav">
+  <ul>
+  <!-- <li><a href="/about.html">About</a></li> -->
+  <li><a href="/resume.html">Resume</a></li>
+  <li><a href="/portfolio.html">Portfolio</a></li>
+</ul>
+</div>
+<div class="grid_8 elsewhere">
+  <ul>
+  <li><a href="http://twitter.com/n8agrin">Twitter</a></li>
+  <li><a href="http://n8agrin.blogspot.com">Blogger</a></li>
+  <li><a href="http://github.com/n8agrin">Github</a></li>
+  <li><a href="http://flickr.com/photos/n8agrin">Flickr</a></li>
+  <li><a href="http://www.goodreads.com/n8agrin">Goodreads</a></li>
+  <li><a href="http://news.ycombinator.com/user?id=n8agrin">Hacker News</a></li>
+  <li><a href="http://www.quora.com/Nate-Agrin">Quora</a></li>
+</ul>
 
-<script type="text/javascript" charset="utf-8">
-  function n8agrinCallback(resp) {
-    var tweets = $.map(resp, function(e) {return e.text;});
-		$('#current').text(tweets[1]);
-  }
-  $.getScript('http://twitter.com/statuses/user_timeline/n8agrin.json?callback=n8agrinCallback');
-</script>
-
-<script src="http://platform.twitter.com/anywhere.js?id=pHt1jvQq5PpXypQGuaFw&amp;v=1"></script>
-<script type="text/javascript">twttr.anywhere(function(twitter) {twitter.hovercards();});</script>
-
-
+</div>
   </div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script src="http://platform.twitter.com/anywhere.js?id=pHt1jvQq5PpXypQGuaFw&amp;v=1"></script>
   <script type="text/javascript">twttr.anywhere(function(twitter) {twitter.hovercards();});</script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-248105-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </body>
 </html>
