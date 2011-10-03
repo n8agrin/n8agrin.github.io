@@ -38,6 +38,7 @@ a img {
 }
 
 .name h1 {
+  text-shadow: 2px 2px 0px #DDD, -2px -2px 0 #EEE;
   margin: 40px 0;
 }
 
