@@ -30,16 +30,14 @@ a img {
 }
 
 .name {
-  font-weight: 800;
   font-style: normal;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .name h1 {
-  text-shadow: 2px 2px 0px #DDD, -2px -2px 0 #EEE;
-  margin: 40px 0;
+  margin: 40px 0 20px;
+  font-weight: 400;
 }
 
 .description {
