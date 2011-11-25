@@ -6,9 +6,7 @@ class: resume
 
 h2. Contact
 
-If you are a human please message me on Twitter: "@n8agrin":http://twitter.com/n8agrin
-If you are a robot, I surrender.
-If you are an alien, wow.
+Message me on Twitter: "@n8agrin":https://twitter.com/intent/tweet?text=%40n8agrin%20hey%20there%21
 
 h2. Objective
 
