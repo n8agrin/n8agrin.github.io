@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -29,19 +29,18 @@ a img {
 }
 
 .name {
-  font-weight: 800;
   font-style: normal;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .name h1 {
-  margin: 40px 0;
+  margin: 40px 0 20px;
+  font-weight: 400;
 }
 
 .description {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
