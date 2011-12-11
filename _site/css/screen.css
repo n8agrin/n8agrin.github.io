@@ -1,0 +1,192 @@
+/* @override http://localhost:4000/css/screen.css */
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #0063dc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* General */
+hr {
+  height: 4px;
+  background-color: #eee;
+	border-style: none;
+}
+
+a img {
+  border: 0;
+}
+
+/* Site */
+
+.site {
+  font-size: 110%;
+  text-align: justify;
+  width: 34em;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+  .site .title a {
+    color: #0063dc;
+    text-decoration: none;
+  }
+
+  .site .title a.extra {
+	text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site .title a.extra:hover {
+	border-bottom: 2px solid;
+  }
+
+  .site .meta {
+    color: #aaa;
+  }
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    margin-bottom: 20em;
+    overflow: hidden;
+  }
+
+    .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
+
+      .site .footer .contact a {
+        color: #8085C1;
+      }
+
+    .site .footer .rss {
+      margin-top: 1.1em;
+      margin-right: .1em;
+      float: right;
+    }
+
+      .site .footer .rss img {
+        border: 0;
+      }
+
+
+/*Posts*/
+
+td.post_url {
+	padding-left: 1em;
+}
+
+#post h1 span.date {
+	color: #aaa;
+}
+
+#post ul li {
+	list-style-position: inside;
+}
+
+/* Resume */
+.resume h2 {
+	font-size: 140%;
+	margin-top: 2.2em;
+}
+
+.resume h6 {
+	margin-top:  2em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.resume p {
+	margin-top: 0;
+}
+
+.resume ul li {
+	margin-top: 0.5em;
+	list-style-position: inside;
+}
+
+.resume p.objective {
+    margin-top: 2em;
+}
+
+#n8fortunecookie {
+    text-align: center;
+}
+
+.portfolio-entry ul.gallery {
+/*    text-align: justify;*/
+}
+
+.portfolio-entry ul.gallery li {
+    display: inline-block;
+    list-style-type: none;
+/*    margin-right: 1px;*/
+}
+
+.portfolio-entry ul.gallery li img {
+    -webkit-transition: border 0.2s ease-in;
+    border: 4px solid #3c3c3c;
+    height: 70px;
+    width: 70px;
+}
+.portfolio-entry ul.gallery li img:hover {
+    -webkit-transition: border-color 0.2s ease-in;
+    border-color: #0063dc;
+}
+
+
+
+
+
+
