@@ -1,12 +1,14 @@
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-  margin: 0;
+  margin: 200px;
   padding: 0;
 }
 
 h2 {
+  color: #333;
   font-weight: 200;
+  margin: 0;
 }
 
 a {
@@ -31,7 +33,9 @@ a img {
 .name {
   font-style: normal;
   font-size: 40px;
-  text-align: center;
+  
+/*  text-shadow: 0 -1px 4px #ccc;*/
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
 }
 
 .name h1 {
@@ -41,11 +45,11 @@ a img {
 
 .description {
   margin-bottom: 20px;
-  text-align: center;
+/*  text-align: center;*/
 }
 
 .elsewhere {
-  text-align: center;
+/*  text-align: center;*/
 }
 
 .elsewhere ul {
@@ -92,7 +96,7 @@ a img {
 
 .default .name h1 {
   font-size: 40px;
-  margin: 10px 0;
+/*  margin: 10px 0;*/
 }
 
 .portfolio-entry ul.gallery {
