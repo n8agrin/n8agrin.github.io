@@ -1,0 +1,20 @@
+---           
+layout: post
+title: You only get one life
+date: 2011-02-23 05:41:00 UTC
+comments: false
+categories: wordsiwishiwrote
+---
+
+h2. {{ page.title }}
+
+h5. {{ page.date | date: "%B %d, %Y"}}
+
+Found via Twitter:
+
+bq. You only get one life. No receipt, no proof of purchase. You can't take it back to the shops if bored. Hence the fact that you should appreciate what you've got. Find a job you love, find people you love, visit your grandparents and get to the seaside as often as possible. Eat well and eat cake. Go running, go jumping. Get your five a day. Laugh. Feed the cat. Fix your bike. Have a baby and smoke a cigar. Camp in the woods, bake some bread and buy a trampoline.
+
+via: "@reybango":https://twitter.com/#!/reybango/status/40151402412126208
+
+<blockquote class="twitter-tweet"><p>This image really speaks the truth about life.<a href="http://yfrog.com/h7e9udjj">http://yfrog.com/h7e9udjj</a><a href="https://twitter.com/search/%2523fb">#fb</a></p>&mdash; Rey Bango (@reybango) <a href="https://twitter.com/reybango/status/40151402412126208" data-datetime="2011-02-22T20:50:14+00:00">February 22, 2011</a></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
