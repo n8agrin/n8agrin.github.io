@@ -1,1 +1,10 @@
-foobar
+---
+layout: default
+title: Home
+class: home
+---
+<table class="posts">
+  {% for post in site.posts %}
+  <tr><td>{{ post.date | date: "%B %d, %Y"}}</td><td class="post_url"><a href="{{ post.url }}">{{ post.title }}</a></td></tr>
+  {% endfor %}
+</table>

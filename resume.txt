@@ -1,0 +1,123 @@
+Nathan Agrin
+Oakland, CA
+email: (n8agrin) begins
+       (@) drifts in a sea of chars
+       (gmail.com) anchors
+
+
+== Objective ==
+
+I love building the fastest, most intuitive web-based interfaces I can.
+I embrace the web and the technologies that drive its development forward.
+I want to continue leading the development of new unique web applications.
+I want to continue learning from everyone who makes the web what it is.
+
+
+== Work Experience ==
+
+User Interface Engineer, Splunk Inc. July 2008 - Present
+San Francisco, California. [www.splunk.com]
+
+  Worked as part of a small, agile team completely rewriting and architecting
+  the Splunk user interface, all built around standard web technologies.
+  
+  Communicated with other in-house engineering, design and testing groups to
+  facilitate rapid development during a period of swift growth.
+
+
+Lead Web Architect, iNaturalist.org. September 2007 - July 2008
+Berkeley, California.  [www.inaturalist.org]
+
+  Led the architectural decisions for a group of three building a community
+  driven web application allowing naturalists to record what species they
+  observed in the wild.
+  
+  Carried out usability studies, creating prototypes, wireframes and mockups
+  as part of a design driven development workflow.
+  
+  Developed dynamic user interfaces and information visualizations,
+  integrating numerous web-based services into the final product.
+  
+  Work accepted as part of the 2010 Where 2.0 conference.
+
+
+User Interface Engineer, Bolt | Peters / Ethnio.com. July 2007 - December 2007
+San Francisco, California. [ethnio.com]
+
+  Revitalized Bolt | Peters' online user recruiting service, Ethnio.com,
+  designing new user interfaces and remodeling workflows based on past users'
+  feedback.
+  
+  Worked as part of a team of three migrating an existing PHP application 
+  to a Ruby on Rails based architecture using a test-driven development process.
+
+
+Lead Developer, Center for History and New Media, October 2005 - May 2007
+George Mason University; Fairfax, Virginia. [www.omeka.org, hurricanearchive.org,
+911digitalarchive.org]
+
+  Responsible for architectural decisions for a team of three, building the
+  open-source web archive application Omeka (omeka.org).
+
+  Successfully deployed large online archives using Omeka.  Integrated
+  applicable third party web-services providing further insight into each
+  digital collection.
+  
+  Worked on maintaining and updating digital archives with large datasets, including
+  improving UI designs and architecture to better handle large data sets.
+
+
+Cell Biology Researcher, University of Massachusetts at Worcester. October 2002 - October 2004
+Worcester, Massachusetts. [labs.umassmed.edu/chlamyfp/protector_login.php]
+
+  Discovered and sequenced novel proteins in the research organism
+  Chlamydomonas. Results published in the Journal of Cell Biology, presented at
+  the 2003 Cell Biology Conference.
+  
+  Recommended the creation of, and built, a web-based repository to store the results
+  of each experiment. Cross referenced other biology based web-services,
+  expanding the insight into each novel protein discovered and while also
+  providing access for outside researchers.
+
+
+== Education ==
+
+Master of Information Management Systems, May 2008
+  University of California at Berkeley; Berkeley, California.
+  Studied user centered design, information visualization and social uses of
+  information.
+
+Bachelor of the Arts in Molecular Biology, May 2002
+  Clark University; Worcester, Massachusetts.
+  Graduated with Highest Honors, Phi Beta Kappa National Honor Society Member.
+
+
+== Other Interesting Bits ==
+
+Some tech things I know and love (in no particular order):
+  Javascript, XHR, Python, HTTP, HTML, Ruby, CSS, PHP, XML, XSLT, XPath, SQL,
+  Geolocation, Ruby on Rails, jQuery, Cherrypy, Tornado, MySQL, MongoDB, Google
+  App Engine, Facebook Connect, Google Maps, some iPhone stuff, how to extract
+  DNA and RNA from cells, basic carpentry, plumbing, and the list goes on!
+
+Some non-tech things I love:
+  Photography, snowboarding, surfing, travel, biking, yoga, Street Fighter II,
+  running, hiking.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+"Every night, when I go to sleep, I die. Every morning, when I wake up, I am reborn." -Gandhi

@@ -1,0 +1,95 @@
+---
+layout: resume
+title: Resume
+class: resume
+---
+
+h2. Contact
+
+Message me on Twitter: "@n8agrin":https://twitter.com/intent/tweet?text=%40n8agrin%20hey%20there%21
+
+h2. Objective
+
+p(objective). I love building the fastest, most intuitive web-based interfaces I can.
+I embrace the web and the technologies that drive its development forward.
+I want to continue leading the development of new unique web applications.
+I want to continue learning from everyone who makes the web what it is.
+
+h2. Work Experience
+
+h4. User Interface Engineer, September 2010 - Present
+
+"Twitter Inc.":http://twitter.com San Francisco, California.
+
+* Top Secret Web Technologist.
+
+h4. User Interface Engineer, July 2008 - September 2010
+
+"Splunk Inc.":http://www.splunk.com San Francisco, California.
+
+* Worked as part of a small, agile team completely rewriting and architecting the Splunk user interface, all built around standard web technologies.
+
+* Communicated with other in-house engineering, design and testing groups to facilitate rapid development during a period of swift growth.
+
+h4. Lead Web Architect, September 2007 - July 2008
+
+"iNaturalist.org":http://www.inaturalist.org Berkeley, California.
+
+* Led the architectural decisions for a group of three building a community driven web application allowing naturalists to record what species they observed in the wild.
+
+* Carried out usability studies, creating prototypes, wireframes and mockups as part of a design driven development workflow.
+
+* Developed dynamic user interfaces and information visualizations, integrating numerous web-based services into the final product.
+
+* Work accepted as part of the 2010 Where 2.0 conference.
+
+h4. User Interface Engineer, July 2007 - December 2007
+
+"Bolt | Peters":http://boltpeters.com/, "Ethnio.com":http://ethnio.com San Francisco, California.
+
+* Revitalized Bolt | Peters' online user recruiting service, "Ethnio.com":http://ethnio.com, designing new user interfaces and remodeling workflows based on past users' feedback.
+
+* Worked as part of a team of three migrating an existing PHP application  to a Ruby on Rails based architecture using a test-driven development process.
+
+
+h4. Lead Developer, October 2005 - May 2007
+
+"Center for History and New Media":http://chnm.gmu.edu, "Omeka.org":http://omeka.org
+George Mason University; Fairfax, Virginia.
+ 
+* Responsible for architectural decisions for a team of three, building the open-source web archive application "Omeka":http://omeka.org.
+
+* Successfully deployed large online archives using "Omeka":http://omeka.org.  Integrated applicable third party web-services providing further insight into each digital collection.
+
+* Worked on maintaining and updating digital archives with large datasets, including improving UI designs and architecture to better handle large data sets.
+
+h4. Cell Biology Researcher, October 2002 - October 2004
+
+University of Massachusetts at Worcester
+Worcester, Massachusett.
+
+* Discovered and sequenced novel proteins in the research organism Chlamydomonas. Results published in the "Journal of Cell Biology":http://jcb.rupress.org/cgi/content/full/170/1/103, presented at the 2003 Cell Biology Conference.
+
+* Recommended the creation of, and built, a web-based repository to store the results of each experiment. Cross referenced other biology based web-services, expanding the insight into each novel protein discovered and while also providing access for outside researchers.
+
+h2. Education
+
+h4. Master of Information Management Systems, May 2008
+
+University of California at Berkeley; Berkeley, California.
+Focus: User centered design, information visualization and social uses of information.
+
+h4. Bachelor of the Arts in Molecular Biology, May 2002
+
+Clark University; Worcester, Massachusetts.
+Graduated with Highest Honors, Phi Beta Kappa National Honor Society Member.
+
+h2. Other Interesting Bits
+
+h4. Some things I know
+
+Javascript, Python, HTTP, HTML (v5, canvas, svg, etc), Ruby, CSS, PHP, XML, XSLT, XPath, SQL, Geolocation, Ruby on Rails, jQuery, Cherrypy, Tornado, Google App Engine, Facebook Connect, Google Maps, some iPhone stuff, how to extract DNA and RNA from cells, basic carpentry, plumbing, electrical systems, etc.
+
+h4. Some things I like
+
+Photography, snowboarding, surfing, travel, yoga, Street Fighter II, running, hiking.
