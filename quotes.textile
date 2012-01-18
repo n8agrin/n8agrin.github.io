@@ -3,4 +3,12 @@ layout: default
 title: Quotes
 ---
 
-* The greatness of a nation and its moral progress can be judged by the way its animals are treated - Mahatma Gandhi
+Every night, when I go to sleep, I die. Every morning, when I wake up, I am reborn. ~ Gandhi
+
+The greatness of a nation and its moral progress can be judged by the way its animals are treated. ~ Gandhi
+
+When we are born we cry that we are come, To this great stage of fools. ~ Shakespeare, King Lear
+
+Little by little, they grew closer, steady, as if on rails, and I thought 'What a beautiful sight,' one that had to be recorded. As I reached for my Hasselblad, suddenly the Earth popped up over the horizon, directly behind Eagle. I could not have staged it any better, but the alignment was not of my doing, just a happy coincidence. I suspect a lot of good photography is like that, some serendipitous happen stance beyond the control of the photographer. But at any rate, as I clicked away, I realized that for the first time, in one frame, appeared three billion earthlings, two explorers, and one moon. The photographer, of course, was discreetly out of view. ~ Michael Collins in "Through the Eyes of the Astronauts":http://www.amazon.com/Apollo-Through-Astronauts-Robert-Jacobs/dp/0810921464
+
+Make decisions so your users don't have to. ~ "Tom Dale":http://tomdale.net/
