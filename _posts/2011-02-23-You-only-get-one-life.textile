@@ -8,7 +8,7 @@ categories: wordsiwishiwrote
 
 h2. {{ page.title }}
 
-h5. {{ page.date | date: "%B %d, %Y"}}
+h6. {{ page.date | date: "%B %d, %Y"}}
 
 Found via Twitter:
 

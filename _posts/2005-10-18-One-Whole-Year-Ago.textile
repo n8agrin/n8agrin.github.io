@@ -5,7 +5,7 @@ title: One Whole Year Ago
 
 h2. {{ page.title }}
 
-h5. %(date){{ page.date | date: "%B %d, %Y"}} - Fairfax, VA%
+h6. {{ page.date | date: "%B %d, %Y"}}
 
 One whole year ago... One year ago I was stepping off a plane and into a world I never thought I would see. One year ago I packed my winter clothes in my closet, my summer close in a backpack, and headed to the other side of the world. One year ago, and it feels like just yesterday. I literally remember specifics about my first day in New Zealand, and can recall the sequence of initial events; the alien vegetation on the way from the airport, meeting Ben in the hostel, and finding great espresso in a foreign city.
 

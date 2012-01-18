@@ -8,7 +8,7 @@ categories: wordsiwishiwrote
 
 h2. {{ page.title }}
 
-h5. {{ page.date | date: "%B %d, %Y"}}
+h6. {{ page.date | date: "%B %d, %Y"}}
 
 I found the following in a hostel on the South Island of New Zealand. It's sat in my journal for years, but is worth sharing.
 
