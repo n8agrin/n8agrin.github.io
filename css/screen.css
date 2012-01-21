@@ -10,3 +10,8 @@ blockquote p {
 #post p {
     margin: 9px 0;
 }
+
+ol.unstyled {
+    margin-left: 0;
+    list-style: none;
+}
