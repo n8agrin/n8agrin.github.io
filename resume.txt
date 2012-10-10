@@ -1,25 +1,36 @@
 Nathan Agrin
-Oakland, CA
-email: (n8agrin) begins
-       (@) drifts in a sea of chars
-       (gmail.com) anchors
-
-
-== Objective ==
-
-I love building the fastest, most intuitive web-based interfaces I can.
-I embrace the web and the technologies that drive its development forward.
-I want to continue leading the development of new unique web applications.
-I want to continue learning from everyone who makes the web what it is.
-
+n8agrin@gmail.com
+(510) 316 3646
 
 == Work Experience ==
 
-User Interface Engineer, Splunk Inc. July 2008 - Present
-San Francisco, California. [www.splunk.com]
+Engineer, Chartio Inc. October 2011 - Present
+San Francisco, California. [chartio.com]
 
-  Worked as part of a small, agile team completely rewriting and architecting
-  the Splunk user interface, all built around standard web technologies.
+  Assisted rewriting Chartio's custom charting library using d3 and SVG for
+  display in the browser.
+
+  Helped plan and execute architectural frontend changes allowing for the
+  development of new features and future growth.
+
+
+Frontend Engineer, Twitter Inc. September 2010 - October 2011
+San Francisco, California. [twitter.com]
+
+  As part of a small team, designed and built Twitter's photos product.
+  
+  Assisted in a major architectural rewrite of Twitter's web framework which
+  reduced the overall load time of Twitter users' home timeline. 
+
+  Worked on several internal product development projects which later became
+  Twitter's Events product and User Profile enhancements.
+
+
+User Interface Engineer, Splunk Inc. July 2008 - September 2010
+San Francisco, California. [splunk.com]
+
+  Assisted the lead UI engineer in architecting and rewriting
+  the Splunk user interface making it more modular and extensable.
   
   Communicated with other in-house engineering, design and testing groups to
   facilitate rapid development during a period of swift growth.
