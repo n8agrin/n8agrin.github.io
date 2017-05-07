@@ -25,5 +25,10 @@
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+  ga('send', 'event', 'performance', 'load', 'dcl', window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart)
+})
+</script>
 </body>
 </html>
