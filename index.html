@@ -1,1 +1,46 @@
-<h1 class="rotate">🥑</h1>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body {
+            height: 100%;
+            background-color: gainsboro;
+        }
+
+        .center {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .foods {
+            flex: 1;
+            font-size: 5rem;
+            text-align: center;
+        }
+
+        .rotate {
+            animation: spin 200s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class=" rotate foods">🥑</div>
+    </div>
+</body>
+
+</html>
